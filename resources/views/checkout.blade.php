@@ -39,7 +39,7 @@
 
                     <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
                         <div class="site-logo">
-                            <a href="home" class="js-logo-clone">Shoppers</a>
+                            <a href="index" class="js-logo-clone">Shoppers</a>
                         </div>
                     </div>
 
@@ -65,7 +65,7 @@
         <nav class="site-navigation text-right text-md-center" role="navigation">
             <div class="container">
                 <ul class="site-menu js-clone-nav d-none d-md-block">
-                    <li><a href="home">Home</a></li>
+                    <li><a href="index">Home</a></li>
                     <li><a href="about">About</a></li>
                     <li><a href="shop">Shop</a></li>
                     <li><a href="register">register</a></li>
@@ -78,7 +78,7 @@
     <div class="bg-light py-3">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 mb-0"><a href="home">Home</a> <span class="mx-2 mb-0">/</span> <a href="cart">Cart</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Checkout</strong></div>
+                <div class="col-md-12 mb-0"><a href="index">Home</a> <span class="mx-2 mb-0">/</span> <a href="cart">Cart</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Checkout</strong></div>
             </div>
         </div>
     </div>

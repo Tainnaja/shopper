@@ -11,12 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('home', function () {
     return view('home');
+});
+
+Route::get('index', function () {
+    return view('index');
 });
 
 Route::get('shop', function () {
@@ -54,3 +54,13 @@ Route::get('thankyou', function () {
 Route::get('shopsingle', function () {
     return view('shopsingle');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+Route::resource('posts', 'PostsController');
+
+Route::resource('posts', 'PostsController');
+Route::resource('posts', 'PostsController');

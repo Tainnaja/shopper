@@ -67,61 +67,100 @@
                 <ul class="site-menu js-clone-nav d-none d-md-block">
                     <li><a href="index">Home</a></li>
                     <li><a href="about">About</a></li>
-                    <li class="active"><a href="shop.html">Shop</a></li>
+                    <li><a href="shop">Shop</a></li>
                     <li><a href="register">register</a></li>
+
                     <li><a href="contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <div class="bg-light py-3">
+    <div class="site-blocks-cover" style="background-image: url(images/hero_1.jpg);" data-aos="fade">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 mb-0"><a href="index">Home</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Tank Top T-Shirt</strong></div>
+            <div class="row align-items-start align-items-md-center justify-content-end">
+                <div class="col-md-5 text-center text-md-left pt-5 pt-md-0">
+                    <h1 class="mb-2">Finding Your Perfect Shoes</h1>
+                    <div class="intro-text text-center text-md-left">
+                        <p class="mb-4">ค้นหารองเท้าที่ใช่ สไตล์ที่ชอบได้ที่นี่ ที่ที่รวมรองเเท้าหลากหลายสไตล์ </p>
+                        <p>
+                            <a href="#" class="btn btn-sm btn-primary">Shop Now</a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="site-section">
+    <div class="site-section site-section-sm site-blocks-1">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <img src="images/cloth_1.jpg" alt="Image" class="img-fluid">
+                <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="">
+                    <div class="icon mr-4 align-self-start">
+                        <span class="icon-truck"></span>
+                    </div>
+                    <div class="text">
+                        <h2 class="text-uppercase">Free Shipping</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan tincidunt fringilla.</p>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h2 class="text-black">Tank Top T-Shirt</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo? Incidunt facere, natus soluta dolores iusto! Molestiae expedita veritatis nesciunt doloremque sint asperiores fuga voluptas, distinctio, aperiam, ratione dolore.</p>
-                    <p class="mb-4">Ex numquam veritatis debitis minima quo error quam eos dolorum quidem perferendis. Quos repellat dignissimos minus, eveniet nam voluptatibus molestias omnis reiciendis perspiciatis illum hic magni iste, velit aperiam quis.</p>
-                    <p><strong class="text-primary h4">$50.00</strong></p>
-                    <div class="mb-1 d-flex">
-                        <label for="option-sm" class="d-flex mr-3 mb-3">
-                            <span class="d-inline-block mr-2" style="top:-2px; position: relative;"><input type="radio" id="option-sm" name="shop-sizes"></span> <span class="d-inline-block text-black">Small</span>
-                        </label>
-                        <label for="option-md" class="d-flex mr-3 mb-3">
-                            <span class="d-inline-block mr-2" style="top:-2px; position: relative;"><input type="radio" id="option-md" name="shop-sizes"></span> <span class="d-inline-block text-black">Medium</span>
-                        </label>
-                        <label for="option-lg" class="d-flex mr-3 mb-3">
-                            <span class="d-inline-block mr-2" style="top:-2px; position: relative;"><input type="radio" id="option-lg" name="shop-sizes"></span> <span class="d-inline-block text-black">Large</span>
-                        </label>
-                        <label for="option-xl" class="d-flex mr-3 mb-3">
-                            <span class="d-inline-block mr-2" style="top:-2px; position: relative;"><input type="radio" id="option-xl" name="shop-sizes"></span> <span class="d-inline-block text-black"> Extra Large</span>
-                        </label>
+                <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon mr-4 align-self-start">
+                        <span class="icon-refresh2"></span>
                     </div>
-                    <div class="mb-5">
-                        <div class="input-group mb-3" style="max-width: 120px;">
-                            <div class="input-group-prepend">
-                                <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
-                            </div>
-                            <input type="text" class="form-control text-center" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
-                            <div class="input-group-append">
-                                <button class="btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
-                            </div>
+                    <div class="text">
+                        <h2 class="text-uppercase">Free Returns</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan tincidunt fringilla.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon mr-4 align-self-start">
+                        <span class="icon-help"></span>
+                    </div>
+                    <div class="text">
+                        <h2 class="text-uppercase">Customer Support</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan tincidunt fringilla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-section site-blocks-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0" data-aos="fade" data-aos-delay="">
+                    <a class="block-2-item" href="#">
+                        <figure class="image">
+                            <img src="images/women.jpg" alt="" class="img-fluid">
+                        </figure>
+                        <div class="text">
+                            <span class="text-uppercase">Collections</span>
+                            <h3>Women</h3>
                         </div>
-
-                    </div>
-                    <p><a href="cart" class="buy-now btn btn-sm btn-primary">Add To Cart</a></p>
-
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
+                    <a class="block-2-item" href="#">
+                        <figure class="image">
+                            <img src="images/children.jpg" alt="" class="img-fluid">
+                        </figure>
+                        <div class="text">
+                            <span class="text-uppercase">Collections</span>
+                            <h3>Children</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
+                    <a class="block-2-item" href="#">
+                        <figure class="image">
+                            <img src="images/men.jpg" alt="" class="img-fluid">
+                        </figure>
+                        <div class="text">
+                            <span class="text-uppercase">Collections</span>
+                            <h3>Men</h3>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -198,6 +237,27 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-section block-8">
+        <div class="container">
+            <div class="row justify-content-center  mb-5">
+                <div class="col-md-7 site-section-heading text-center pt-4">
+                    <h2>Big Sale!</h2>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-12 col-lg-7 mb-5">
+                    <a href="#"><img src="images/blog_1.jpg" alt="Image placeholder" class="img-fluid rounded"></a>
+                </div>
+                <div class="col-md-12 col-lg-5 text-center pl-md-5">
+                    <h2><a href="#">50% less in all items</a></h2>
+                    <p class="post-meta mb-4">By <a href="#">Carl Smith</a> <span class="block-8-sep">&bullet;</span> September 3, 2018</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam iste dolor accusantium facere corporis ipsum animi deleniti fugiat. Ex, veniam?</p>
+                    <p><a href="#" class="btn btn-primary btn-sm">Shop Now</a></p>
                 </div>
             </div>
         </div>
